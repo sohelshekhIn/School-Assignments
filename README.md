@@ -1,27 +1,65 @@
-#Game Logic
+
+# Tic Tac Toe Game
+
+Terminal based Tic Tac Toe Game in python
+
+
+
+
+## Runnig
+```
+py tic_tac_toe.py
+```
+
+
+
+
+
+
+
+
+
+# Code Explanation
+
+## Game Logic
 
 Step 1: Clears terminal and Prints Board
+
 Step 2: Takes input from player
+
 Step 3: Checks if input was valid input (i.e. an integer)
+
 Step 4: Checks if input ranges from 1 to 9
+
 Step 5: Checks if the input position is empty in Board
+
 Step 6: Registers Move in the input position for the current player
+
 Step 7: Runs Game Logic where it checks if any player Won
+
 Step 8: If no Win / Loss, Goes to Step 1 for number of empty space in Board
+
 Step 9: If Player Won / Match Draw, prints message and exits the programme
 
 
-#Line by Line Explanation Of Code
+
+
+## Line by Line Explanation Of Code
 
 
 Importing system function from os
 
 Defining Global variables, which are to be accessed from anywhere in the file.
 This includes, 
+
     positionalData - The value of player mves in board in form of an array
+
     player - Value of curernt player in form of s string
+
     playerX - Array to have all moves of player X
+
     playerO - Array to have all moves of player O
+
     winMatch - Boolean Value which tells if any player won match, True for no won
 
 A clear() function to clear the terminal by running system("clear||cls")
@@ -100,3 +138,5 @@ Then if name main statement ( A system reserved Vars ) -
 
             If input was Enter (i.e. Empty Input) then runs printBoard() and takeInput()
             If input was q then break is runs to exit the while loop and end the programme.
+
+  
